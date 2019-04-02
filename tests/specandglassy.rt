@@ -1,0 +1,23 @@
+BG #808080
+
+SPHERE #FFFFFF
+pos:(0, 0, 0)
+rot:{0, 0, 0}
+scale:[7.5, 7.5, 7.5]
+material:LIGHT
+
+RECTANGLE #FFFFFF
+pos:(0, 0, -50)
+rot:{1.57079632679, 0, 0}
+scale:[100.0, 100.0, 100.0]
+material:TRANSPARENT
+
+RECTANGLE #FFFFFF
+pos:(0, 50, 0)
+rot:{0, 1.57079632679, 0}
+scale:[100.0, 100.0, 100.0]
+
+RECTANGLE #FFFFFF
+pos:(50, 0, 0)
+rot:{0, 0, 1.57079632679}
+scale:[100.0, 100.0, 100.0]

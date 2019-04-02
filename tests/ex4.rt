@@ -1,0 +1,47 @@
+BG #FFFFFF
+
+SPHERE #E6CD9B
+pos:(0, 1.36, 0)
+rot:{0, 0, 0}
+scale:[1, 1, 1]
+material:LIGHT
+
+SPHERE #E6CDB2
+pos:(-0.25, -0.24, -0.1)
+rot:{0, 0, 0}
+scale:[0.16, 0.16, 0.16]
+
+SPHERE #E6CDB2
+pos:(0.25, -0.24, -0.1)
+rot:{0, 0, 0}
+scale:[0.16, 0.16, 0.16]
+
+SPHERE #C04040
+pos:(-200.6, 0.0, 0.0)
+rot:{0, 0, 0}
+scale:[200, 200, 200]
+
+SPHERE #4040C0
+pos:(200.6, 0.0, 0.0)
+rot:{0, 0, 0}
+scale:[200, 200, 200]
+
+SPHERE #E6CDB2
+pos:(0.0, 200.6, 0.0)
+rot:{0, 0, 0}
+scale:[200, 200, 200]
+
+SPHERE #E6CDB2
+pos:(0.0, -200.6, 0.0)
+rot:{0, 0, 0}
+scale:[200, 200, 200]
+
+SPHERE #E6CDB2
+pos:(0.0, 0.0, 200.6)
+rot:{0, 0, 0}
+scale:[200, 200, 200]
+
+SPHERE #E6CDB2
+pos:(0.0, 0.0, -200.6)
+rot:{0, 0, 0}
+scale:[200, 200, 200]

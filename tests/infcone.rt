@@ -1,0 +1,46 @@
+BG #FFFFFF
+
+
+INFCONE #FFFF11
+pos:(4, 4, 1)
+rot:{0, 0, 1}
+scale:[2, 20, 2]
+"Infcone"
+
+
+SPHERE #FF22FF	(-19, 19, 0)	{0, 0, 0}	[1, 1, 1] "Magenta"	material:LIGHT
+
+SPHERE #2222FF	(33, -13, -1)	{0, 0, 0}	[1, 1, 1] "Blue"	material:LIGHT
+SPHERE #FFAAAA	(30, -13, 1)	{0, 0, 0}	[1, 1, 1] "Pink"	material:LIGHT
+SPHERE #FFFF22	(32, -13, 3)	{0, 0, 0}	[1, 1, 1] "Yellow"	material:LIGHT
+
+
+CUBE #FF0000	pos:(-9, 0, 0)	rot:{0, 0, 0}	scale:[1, 6, 10]	"Brick Side Left"
+CUBE #FF0000	pos:(9, 0, 0)	rot:{0, 0, 0}	scale:[1, 6, 10]	"Brick Side Right"
+CUBE #FF0000	pos:(0, 0, -9)	rot:{0, 0, 0}	scale:[10, 6, 1]	"Brick Side Near"
+CUBE #FF0000	pos:(0, 0, 9)	rot:{0, 0, 0}	scale:[10, 6, 1]	"Brick Side Far"
+
+CUBE #FF0000	pos:(0, 6, 0)	rot:{0, 0, 0}	scale:[10, 1, 10]	"Brick Top"
+
+CYLINDER #FF0000
+pos:(5, 8, 5)
+rot:{0, 0, 0}
+scale:[3, 2, 3]	"Brick Stud TL"
+CYLINDER #FF0000
+pos:(5, 8, -5)
+rot:{0, 0, 0}
+scale:[3, 2, 3]	"Brick Stud TR"
+CYLINDER #FF0000
+pos:(-5, 8, 5)
+rot:{0, 0, 0}
+scale:[3, 2, 3]	"Brick Stud BL"
+CYLINDER #FF0000
+pos:(-5, 8, -5)
+rot:{0, 0, 0}
+scale:[3, 2, 3]	"Brick Stud BR"
+
+CYLINDER #FF0000
+pos:(0, 0, 0)
+rot:{0, 0, 0}
+scale:[4.07, 12, 4.07]
+"Bottom Pillar"

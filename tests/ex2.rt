@@ -1,0 +1,38 @@
+BG #888888
+
+SPHERE #FFFFFF
+pos:(0, 10, 0)
+rot:{0, 0, 0}
+scale:[0, 0, 0]
+material:LIGHT
+
+// commentaires
+
+
+
+CUBE #222222
+pos:(0,-1, 0)
+rot:{0, 0, 0}
+scale:[10, 1, 10]
+
+CUBE #1111DD
+pos:(0, 5, -10)
+rot:{0, 0, 0}
+scale:[10, 10, 1]
+
+SPHERE #FF11FF
+pos:(0, 4, 0)
+rot:{0, 0, 0.789}
+scale:[2, 2, 2]
+material:LIGHT
+
+CYLINDER #11FF11
+pos:(-3, 4, 1)
+rot:{0, 0, 1.5789}
+scale:[2, 2, 2]
+material:TRANSPARENT
+
+CONE #FFFF11
+pos:(4, 4, 1)
+rot:{0, 0, -0.789}
+scale:[2, 20, 2]

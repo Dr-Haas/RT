@@ -1,0 +1,22 @@
+BG #FFFFFF
+
+SPHERE #FFFF00
+pos:(0, 0, 0)
+rot:{0, 0, 0}
+scale:[7.5, 7.5, 7.5]
+
+
+RECTANGLE #FF0000
+pos:(0, -20, 0)
+rot:{0, 0, 0}
+scale:[40.0, 40.0, 1000.0]
+
+RECTANGLE #00FF00
+pos:(-20, 0, 0)
+rot:{0, 0, 1.57079632679}
+scale:[40.0, 40.0, 1000.0]
+
+RECTANGLE #0000FF
+pos:(20, 0, 0)
+rot:{0, 0, 1.57079632679}
+scale:[40.0, 40.0, 1000.0]
